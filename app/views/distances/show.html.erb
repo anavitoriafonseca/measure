@@ -1,0 +1,16 @@
+<table class="table is-fullwidth is-hoverable is-bordered">
+  <thead>
+    <tr>
+      <th>Source Address</th>
+      <th>Destination Address</th>
+      <th>Distance</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><%= @distance.to_address.address %></td>
+        <td><%= @distance.from_address.address %></td>
+        <td><%= @distance.distance %></td>
+      </tr>
+  </tbody>
+</table>
